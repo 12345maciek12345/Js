@@ -1,0 +1,45 @@
+<html>
+ <head>
+ <script type="text/javascript">
+ function okno_zamknij_chustak()
+ 
+ {
+ window.close()
+ }
+ </script>
+ </head>
+<body>
+    Powstała w 1995 roku.   <br>
+    JavaScript to obiektowy język skryptowy. Aplikacje w języku Java działają w maszynie wirtualnej lub w przeglądarce, a kod JavaScript jest uruchamiany wyłącznie w przeglądarkach. Kod języka Java wymaga skompilowania, a kod JavaScript pozostaje w formie tekstu.<BR>
+    Istota dynamiki kodu JavaScript wynika z faktu, że jest on jest wykonywany przez przeglądarkę klienta. Takie rozwiązanie nie tylko odciąża serwer, ale zapewnia wyświetlanie poszczególnych elementów witryny bez konieczności jej odświeżania.<br>
+    Przeglądarka izoluje JavaScript, gdy jest wykonywany w ramach samego procesu przeglądarki. Nie może zrobić niczego, co nie jest dozwolone przez interpreter JavaScript przeglądarki lub kompilator JIT. Jednak ze względu na jego złożoność nierzadko zdarza się, że można znaleźć luki w zabezpieczeniach, które umożliwiają JavaScriptowi złamanie zabezpieczeń przeglądarki i uzyskanie dowolnego kodu z uprawnieniami procesu przeglądarki. <br>
+    tak. Obiektowość w Javie opiera się na pojęciu klasy - modułu posiadającego nazwę oraz atrybuty w postaci metod i pól klasy. Klasy służą do zdefiniowania typu danych, którego elementy nazywane są obiektami, a referencje do tych obiektów są wartością zmiennych obiektowych. Innymi słowy obiekty są egzemplarzami klasy.<br>
+ <img src="obraz1.gif" />
+  &lsaquo; input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')" &rsaquo;
+  INPUT stosuje się w obrębie formularzy. Znacznik ten tworzy zarówno jednowierszowe pola tekstowe, pola opcji (checkbox) i pola przełączników (radio button), jak i kasuje zawartości wszystkich pól oraz wydaje polecenie wysłania treści formularza do serwera. Jego konkretną funkcję określa się parametrem TYPE.<br>
+  Atrybutu value używamy, jeśli chcemy nadać elementowi wartość domyślną, którą użytkownik może, ale nie musi modyfikować.<br>
+  name nadaje nazwe<br>
+  onclick reaguje na klikniecie myszy i otwiera okno przez winopen<br>
+  
+  <!DOCTYPE html>
+<html lang="pl">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta http-equiv="Content-Script-Type" content="text/javascript">
+ <title>Moja strona WWW</title>
+ <script type="text/javascript">
+ function onclickHandler()
+ {
+ alert('Akapit został kliknięty!');
+ }
+ </script>
+ </head>
+ <body>
+ <p onclick="onclickHandler();">Kliknij ten akapit,
+ a pojawi się okno dialogowe.</p>
+ </body>
+</html>
+ <input type="button" value="zamknij okno" onclick=okno_zamknij_chustak()
+ />
+</body>
+</html>
